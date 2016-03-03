@@ -1,0 +1,49 @@
+.timeAndDate{
+	
+	//height: 40px;
+	font-size: 2em;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	background-color: transparent;
+	#time{
+		display: block;
+		
+	}
+
+	#helsinki{
+		display: block;
+		font-size: 0.6em;
+	}
+}
+
+.weather{
+	margin-left: 100px;
+	display: block;
+	font-size: 2em;
+	span{
+		margin-left: 20px;
+	}
+}
+
+.todo{
+	margin-top: 40px;
+	h3{
+		margin-left: 60px;
+	}
+	ul li{
+		list-style-type: none;
+		margin-left: 20px;
+		font-size: 1em;
+	}
+}
+
+.mood{
+	margin-top: 60px;
+	font-size: 2em;
+	span{
+		display: block;
+	}
+	input{
+		width: 50%;
+	}
+}

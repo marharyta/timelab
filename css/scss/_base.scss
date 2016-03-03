@@ -1,0 +1,30 @@
+body{
+	background-color: black;
+	//animation-name: nicePic;
+	animation-duration: 100s;
+	background-image: url("../../img/mount.jpeg");
+	 -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* The animation code */
+@keyframes nicePic {
+    0%   {background-image: url("../../img/landscape.jpeg");}
+    25%  {background-image: url("../../img/bush.jpeg");}
+    50%  {background-image: url("../../img/jungles.jpeg");}
+    100% {background-image: url("../../img/mount.jpeg");}
+}
+
+li{
+	list-style-type: none;
+
+}
+
+input[type="text"]{
+	border: none;
+	border-bottom: 2px solid white;
+	background-color: transparent;
+	outline: none;
+}

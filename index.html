@@ -1,0 +1,122 @@
+<html>
+<head>
+	<title>Timelab</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/scss/main_style.css">
+
+	<script src="js/jquery-2.1.4.js"></script>
+	<script type="text/javascript" src="js/moment/moment.js"></script>
+	<script type="text/javascript" src="js/time.js"></script>
+
+	<!--<script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>-->
+
+
+</head>
+<body >
+<div class="absolute">
+	<div class="timeAndDate text-center">
+		<span id="time"></span>
+		<span id="date"></span>
+		<span id="helsinki">Helsinki</span>
+	</div>
+	<div class="weather">
+		<img src="img/sun94.png">
+		<span>+25<sup>o</sup></span>
+	</div>
+	<div class="mood text-center">
+		<span>I am feeling</span>
+		<input type="text">
+	</div>
+	<div class="todo">
+		<h3>TODO</h3>
+		<ul>
+			<li>- business meeting at 6 pm</li>
+			<li>- draw the wireframe</li>
+			<li>- code a landing page</li>
+		</ul>
+	</div>
+
+</div>
+<!--Time and Date -->
+
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-lg-12 col-md-12 col-sm-12 full-screen">
+			<div class="row">
+				<!-- Interest list-->
+				<div class="col-lg-3 col-lg-offset-1 col-md-4 col-sm-10 col-xs-12 blurred-section interests myinterest ">
+					<h2>My interests</h2>
+						<ul>
+							<form>
+								<li > <input type="checkbox"> <span>HTML5 & CSS3</span></li>
+								<li > <input type="checkbox"> <span>Bootstrap 3</span></li>
+								<li > <input type="checkbox"> <span>MongoDB</span></li>
+								<li > <input type="checkbox"> <span>AngularJS</span></li>
+								<li > <input type="checkbox"> <span>art</span></li>
+							</form>
+						</ul>
+				</div>
+				<div class="col-lg-3 col-lg-offset-1 col-md-4 col-sm-10 col-xs-12 blurred-section interests myinterest ">
+					Graph
+				</div>
+				
+			</div>
+		</div>
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+			<div class="row">
+				<!-- Mote topics-->
+				<div class="col-lg-3 col-lg-offset-1 col-md-4 col-sm-10 col-xs-12 blurred-section interests ">
+					<div>
+						<h2>More Topics</h2>
+						<ul>
+								<li > - ReactJS</li>
+								<li > - npm install</li>
+						</ul>
+					</div>
+					
+					<div class="last-visited">
+						<h2>Last Visited</h2>
+						<ul>
+								<li > <img src="img/facebook29.png"><span>Facebook.com</span></li>
+								<li > <img src="img/facebook29.png"><span>Facebook.com</span></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-lg-offset-1 col-md-4 col-sm-10 col-xs-12 blurred-section interests goal text-center">
+					<p>You are</p>
+					<span id="persentage">89%</span>
+					<p>closer to your goal</p>
+					
+				</div>
+
+				
+			</div>
+		</div>	
+	</div>
+</div>
+
+<!--<script type="text/javascript">
+
+
+/*$(document).ready(function(){
+
+	//time realated api with momentJS
+    var currentTime;
+    var month = moment().format('MMMM');
+    var day = moment().format('Do');
+    var time = moment().format('h:mm a');
+	currentTime= moment().format('MMMM Do YYYY, h:mm:ss a');
+	 // November 21st 2015, 5:34:23 pm
+	$( "#time" ).text( time );
+	$( "#date" ).text( day + " of " + month );
+	console.log(currentTime, month, day, time);
+
+});*/
+
+</script>-->
+
+</body>
+</html>
